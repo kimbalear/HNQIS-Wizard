@@ -1334,6 +1334,64 @@ h6 {
   font-size: 1em;
 }
 
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+/* Rules for sizing the icon. */
+.md-18 {
+  font-size: 18px;
+}
+
+.md-24 {
+  font-size: 24px;
+}
+
+.md-36 {
+  font-size: 36px;
+}
+
+.md-48 {
+  font-size: 48px;
+}
+
+/* Rules for using icons as black on a light background. */
+.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.md-dark_active {
+  color: #29C4A9;
+}
+
+/* Rules for using icons as white on a dark background. */
+.md-light {
+  color: white;
+}
+
+.md-light_active {
+  color: #29C4A9;
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -1350,17 +1408,83 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
   position: relative;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
 }
-
-.wrapper {
+body .wrapper {
   width: 100%;
-  height: auto;
-  height: calc(100% - 56px);
-  padding: 8px 16px 0px 16px !important;
+  height: calc(100% - 72px);
+  padding: 8px 16px 0px 16px;
+  background-color: aqua;
   box-sizing: border-box;
 }
-
-.scrim {
+body .wrapper .grid-container {
+  display: grid;
+  grid-template-columns: 0.6fr 1.8fr 0.6fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "gr-tools gr-wrapper gr-Layers";
+}
+body .wrapper .gr-tools {
+  grid-area: gr-tools;
+  text-align: left;
+}
+body .wrapper .gr-wrapper {
+  grid-area: gr-wrapper;
+  text-align: center;
+}
+body .wrapper .gr-Layers {
+  grid-area: gr-Layers;
+  text-align: right;
+}
+body .nav_bottom {
+  width: 100%;
+  height: 72px;
+  padding: 8px 16px 0px 16px;
+  box-sizing: border-box;
+}
+body .nav_bottom .grid-bottom {
+  display: grid;
+  grid-template-columns: 1.2fr 1.2fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "gr-Bottom-left gr-Bottom-right";
+}
+body .nav_bottom .gr-Bottom-left {
+  grid-area: gr-Bottom-left;
+  text-align: left;
+}
+body .nav_bottom .gr-Bottom-left div {
+  width: max-content;
+  height: max-content;
+  background-color: #333;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+body .nav_bottom .gr-Bottom-left div span {
+  margin-right: 12px;
+}
+body .nav_bottom .gr-Bottom-right {
+  grid-area: gr-Bottom-right;
+  text-align: right;
+}
+body .nav_bottom .gr-Bottom-right .btn_save {
+  float: right;
+  width: max-content;
+  min-width: 90px;
+  height: max-content;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFF;
+  background-color: #29C4A9;
+  padding: 8px 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+body .scrim {
   display: none;
   position: fixed;
   height: 100vh;
@@ -1370,44 +1494,35 @@ body {
   background-color: rgba(0, 0, 0, 0.35);
   opacity: 0.4;
 }
-
-::-webkit-scrollbar {
+body ::-webkit-scrollbar {
   width: 2px;
   height: 2px;
 }
-
-/* Track */
-::-webkit-scrollbar-track {
+body ::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
-
-/* Handle */
-::-webkit-scrollbar-thumb {
+body ::-webkit-scrollbar-thumb {
   background: #888;
 }
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+body ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover,
-textarea:-webkit-autofill:focus,
-select:-webkit-autofill,
-select:-webkit-autofill:hover,
-select:-webkit-autofill:focus {
+body input:-webkit-autofill,
+body input:-webkit-autofill:hover,
+body input:-webkit-autofill:focus,
+body textarea:-webkit-autofill,
+body textarea:-webkit-autofill:hover,
+body textarea:-webkit-autofill:focus,
+body select:-webkit-autofill,
+body select:-webkit-autofill:hover,
+body select:-webkit-autofill:focus {
   border: 1px solid rgba(255, 255, 255, 0.01);
   -webkit-text-fill-color: #4753A3;
   -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.01) inset;
   -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s;
 }
-
-input {
+body input {
   width: 100%;
   margin-bottom: 10px;
   background: rgba(0, 0, 0, 0.3);
@@ -1426,13 +1541,11 @@ input {
   -ms-transition: box-shadow 0.5s ease;
   transition: box-shadow 0.5s ease;
 }
-
-input:focus {
+body input:focus {
   box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.4), 0 1px 1px rgba(255, 255, 255, 0.2);
 }
-
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
+body input[type=number]::-webkit-inner-spin-button,
+body input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }

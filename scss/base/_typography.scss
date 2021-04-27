@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap);
 
-$typ-primary: 'Roboto', sans-serif;
-
+$typ-primary: 'Roboto',
+sans-serif;
 $font-weights: ("regular": 400, "medium": 500, "bold": 700);
 
 h1 {
@@ -42,4 +42,67 @@ h6 {
     font-style: normal;
     font-weight: 400;
     font-size: 1em;
+}
+
+// MATERIAL-ICONS
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+/* Rules for sizing the icon. */
+
+.md-18 {
+    font-size: 18px;
+}
+
+.md-24 {
+    font-size: 24px;
+}
+
+.md-36 {
+    font-size: 36px;
+}
+
+.md-48 {
+    font-size: 48px;
+}
+
+/* Rules for using icons as black on a light background. */
+.md-dark {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.md-dark_active {
+    color: #29C4A9;
+}
+
+/* Rules for using icons as white on a dark background. */
+.md-light {
+    color: rgba(255, 255, 255, 1);
+}
+
+.md-light_active {
+    color: #29C4A9;
 }
