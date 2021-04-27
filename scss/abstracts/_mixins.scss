@@ -1,0 +1,172 @@
+
+
+// buttons
+@mixin button($colors...) {
+    @if $buttons {
+        .button {
+            background-color: map-get($button-colors, nth($colors, 1));
+
+            &:hover {
+                background-color: rgba(map-get($button-colors, nth($colors, 1)), 80%);
+
+                @if(nth($colors, 1)==primary) {
+                    cursor: pointer;
+                }
+            }
+
+            @if length($colors)>1 {
+                @for $i from 2 through length($colors) {
+                    &.#{nth($colors,$i)} {
+                        color: $color-typ-s;
+                        background-color: map-get($button-colors, nth($colors, $i));
+
+                        @if(nth($colors, $i) !=dis) {
+                            &:hover {
+                                background-color: rgba(map-get($button-colors, nth($colors, $i)), 80%);
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .button-outline {
+            border: 1px solid map-get($button-colors, nth($colors, 1));
+            background-color: transparent !important;
+
+            .button-label {
+                color: map-get($button-colors, nth($colors, 1));
+            }
+
+            &:hover {
+                border: 1px solid rgba(map-get($button-colors, nth($colors, 1)), 80%);
+
+                @if(nth($colors, 1)==primary) {
+                    cursor: pointer;
+                }
+            }
+
+            @if length($colors)>1 {
+                @for $i from 2 through length($colors) {
+                    &.#{nth($colors,$i)} {
+                        color: $color-typ-s;
+                        border: 1px solid map-get($button-colors, nth($colors, $i));
+
+                        .button-label {
+                            color: map-get($button-colors, nth($colors, $i));
+                        }
+
+                        @if(nth($colors, $i) !=dis) {
+                            &:hover {
+                                border: 1px solid rgba(map-get($button-colors, nth($colors, $i)), 80%);
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .button-text {
+            background-color: transparent !important;
+
+            .button-label {
+                color: map-get($button-colors, nth($colors, 1));
+            }
+
+            &:hover {
+                color: rgba(map-get($button-colors, nth($colors, 1)), 80%);
+
+                @if(nth($colors, 1)==primary) {
+                    cursor: pointer;
+                }
+            }
+
+            @if length($colors)>1 {
+                @for $i from 2 through length($colors) {
+                    &.#{nth($colors,$i)} {
+                        color: $color-typ-s;
+
+                        .button-label {
+                            color: map-get($button-colors, nth($colors, $i));
+                        }
+
+                        @if(nth($colors, $i) !=dis) {
+                            &:hover {
+                                color: rgba(map-get($button-colors, nth($colors, $i)), 80%);
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+// Bottom navigation
+@mixin btm-nav-section-icon {
+    margin: auto;
+    width: 24px;
+    height: 24px;
+    //background-color: $color-background;
+    box-sizing: border-box;
+}
+
+@mixin themable($theme-name, $fc-50, $bg-50, $fc-100, $bg-100, $fc-200, $bg-200, $fc-300, $bg-300, $fc-400, $bg-400, $fc-500, $bg-500, $fc-600, $bg-600, $fc-700, $bg-700, $fc-800, $bg-800, $fc-900, $bg-900) {
+    .#{$theme-name} {
+        .Nav1 {
+            color: $fc-900;
+            background-color: $bg-900;
+
+            .Nav__icon {
+                .menu-icon {
+                    fill: $fc-900;
+                }
+            }
+
+            .Nav__sync {
+                .Nav__sync-s {
+                    fill: $bg-900;
+                }
+
+                .Nav__sync-d {
+                    fill: $bg-50;
+                }
+            }
+
+            .Nav__status {
+                .online_nav {
+
+                    .online_nav-cloud {
+                        fill: $fc-900;
+                    }
+
+                    .online_nav-i {
+                        fill: $fc-900;
+                    }
+
+                    .online_nav-s {
+                        fill: $fc-900;
+                    }
+                }
+
+                .offline_nav {
+                    .offline_nav-cloud {
+                        fill: $fc-900;
+                    }
+
+                    .offline_nav-i {
+                        fill: $fc-900;
+                    }
+
+                    .offline_nav-s {
+                        fill: $fc-900;
+                    }
+                }
+            }
+        }
+    }
+}

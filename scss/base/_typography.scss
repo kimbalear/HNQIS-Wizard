@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap);
+
+$typ-primary: 'Roboto', sans-serif;
+
+$font-weights: ("regular": 400, "medium": 500, "bold": 700);
+
+h1 {
+    font-family: $typ-primary;
+    font-style: normal;
+    font-weight: 300;
+    color: $color-p;
+    font-size: 1.7em;
+}
+
+h2 {
+    font-family: $typ-primary;
+    font-style: normal;
+    font-weight: 300;
+    color: $color-p;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+h6 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+}

@@ -1,0 +1,14 @@
+$radius: 4px;
+
+// Buttons
+$buttons: true !default;
+$button-colors:(
+    primary: $color-s,
+    dis: $color-disabled,
+    alert: $color-alert,
+    cta: $color-cta,
+    warning: $color-warning,
+    h-emphasis: $btn-h-emphasis,
+    m-emphasis: $btn-m-emphasis,
+    l-emphasis: $btn-l-emphasis,
+);
