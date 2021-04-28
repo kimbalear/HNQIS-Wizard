@@ -78,6 +78,7 @@ body {
 
         span{
           margin-right: 12px;
+          cursor: pointer;
         }
       }
     }
@@ -98,6 +99,7 @@ body {
         background-color: #29C4A9;
         padding: 8px 10px;
         border-radius: $radius;
+        cursor: pointer;
         box-sizing: border-box;
 
       }

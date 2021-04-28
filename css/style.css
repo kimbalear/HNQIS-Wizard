@@ -1465,6 +1465,7 @@ body .nav_bottom .gr-Bottom-left div {
 }
 body .nav_bottom .gr-Bottom-left div span {
   margin-right: 12px;
+  cursor: pointer;
 }
 body .nav_bottom .gr-Bottom-right {
   grid-area: gr-Bottom-right;
@@ -1482,6 +1483,7 @@ body .nav_bottom .gr-Bottom-right .btn_save {
   background-color: #29C4A9;
   padding: 8px 10px;
   border-radius: 4px;
+  cursor: pointer;
   box-sizing: border-box;
 }
 body .scrim {
