@@ -1,0 +1,2138 @@
+{
+  "name": "Settings",
+  "Content": [
+    {
+      "Short Name": {
+        "Short Name": "Form Name",
+        ""
+      },
+      "Form Name": "Form Name",
+      "lastUpdated": "2021-02-22T12:54:50.593",
+      "name": "1. Abortion service delivery points",
+      "id": "lZylB0A2qtP",
+      "displayName": "1. Abortion service delivery points",
+      "externalAccess": false,
+      "sortOrder": 1,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "1. Points de prestation de services d'avortement"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "1. Puntos de prestación de servicios que ofrecen servicios de aborto"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S1_DE",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Number of service delivery points providing abortion services",
+      "id": "tGU1BHcBwGI",
+      "displayName": "Number of service delivery points providing abortion services",
+      "externalAccess": false,
+      "sortOrder": 2,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Nombre de points de prestation de services offrant des services d'avortement"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Número de puntos de prestación de servicios de aborto"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S1_Note",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Service points are physical locations where abortion/post-abortion services are offered, such as a clinic, pharmacy, or community venue.",
+      "id": "fVzL3I21anM",
+      "displayName": "Service points are physical locations where abortion/post-abortion services are offered, such as a clinic, pharmacy, or community venue.",
+      "externalAccess": false,
+      "sortOrder": 3,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Les points de service sont des lieux physiques où des services sont offerts, tels qu'une clinique, une pharmacie ou un lieu communautaire."
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Los puntos de servicio se definen como lugar físico donde se ofrecen los servicios, tales como una clínica, una farmacia o un lugar comunitario."
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_Title",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "2. Number of people receiving abortion services",
+      "id": "sCThMVWoWQb",
+      "displayName": "2. Number of people receiving abortion services",
+      "externalAccess": false,
+      "sortOrder": 4,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "2. Nombre de personnes recevant des services d'avortement"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "2. Número de personas que reciben servicios de aborto "
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_SubTitle",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Number of people provided with induced abortion services or treatment for incomplete abortions (induced or spontaneous, i.e. miscarriages).",
+      "id": "D5nVRdU4Nui",
+      "displayName": "Number of people provided with induced abortion services or treatment for incomplete abortions (induced or spontaneous, i.e. miscarriages).",
+      "externalAccess": false,
+      "sortOrder": 5,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Nombre de personnes ayant bénéficié de services d'avortement provoqué ou de traitement pour avortements incomplets (provoqués ou spontanés, c'est-à-dire des fausses couches)."
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Número de personas a las que se les ha proporcionado servicios de aborto inducido o tratamiento para abortos incompletos (inducidos o espontáneos)."
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE1",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Disaggregated by AGE",
+      "id": "CnKceBL4rGi",
+      "displayName": "Disaggregated by AGE",
+      "externalAccess": false,
+      "sortOrder": 6,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Ventilé par AGE"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Desagregado por EDAD"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE1_D1",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Age 19 and Younger",
+      "id": "yw6jctW8xDF",
+      "displayName": "Age 19 and Younger",
+      "externalAccess": false,
+      "sortOrder": 7,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "19 ans et moins"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "19 Años o Menos"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE1_D2",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Age 20 and Older",
+      "id": "XAb1AxAGFu8",
+      "displayName": "Age 20 and Older",
+      "externalAccess": false,
+      "sortOrder": 8,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "20 ans et plus"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "20 Años o Más"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE1_D3",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Unknown",
+      "id": "HYLgFRaO2xU",
+      "displayName": "Unknown",
+      "externalAccess": false,
+      "sortOrder": 9,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Inconnu"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Desconocido"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE1_D3_Note",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "The age category should be known for all abortion clients. If age is unknown for any clients, please provide an explanation in the comment box at the bottom of the form.",
+      "id": "Aodyq0a3e4M",
+      "displayName": "The age category should be known for all abortion clients. If age is unknown for any clients, please provide an explanation in the comment box at the bottom of the form.",
+      "externalAccess": false,
+      "sortOrder": 10,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "La catégorie d'âge doit être connue pour toutes les clientes d'avortement. Si l'âge d'une cliente est inconnu, veuillez donner une explication dans la case de commentaire en bas du formulaire."
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "La categoría de edad debe conocerse para todxs lxs clientxs de aborto. Si se desconoce la edad, incluya una explicación en la casilla de comentarios al final del formulario."
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE1_Total",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Total by AGE",
+      "id": "dCMSL5I1YWw",
+      "displayName": "Total by AGE",
+      "externalAccess": false,
+      "sortOrder": 11,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Total par AGE"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Total por EDAD"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE2",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Disaggregated by ABORTION METHOD",
+      "id": "IpgYo7qHeHA",
+      "displayName": "Disaggregated by ABORTION METHOD",
+      "externalAccess": false,
+      "sortOrder": 12,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Ventilé par MÉTHODE D'AVORTEMENT"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Desagregado por MÉTODO DE ABORTO"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE2_D1",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Abortion with Medication",
+      "id": "fZV02SBrC0G",
+      "displayName": "Abortion with Medication",
+      "externalAccess": false,
+      "sortOrder": 13,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Avortement avec médicaments"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Aborto con medicamentos"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE2_D1_Note",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Number of people provided with misoprostol or a combination of misoprostol & mifepristone.",
+      "id": "lLcTPDoqoR3",
+      "displayName": "Number of people provided with misoprostol or a combination of misoprostol & mifepristone.",
+      "externalAccess": false,
+      "sortOrder": 14,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Nombre de personnes ayant reçu du misoprostol ou une combinaison de misoprostol & mifépristone."
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Número de personas que recibieron misoprostol o una combinación de misoprostol & mifepristona."
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE2_D2",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Manual/Electric Vacuum Aspiration",
+      "id": "yvQEf5wp5TY",
+      "displayName": "Manual/Electric Vacuum Aspiration",
+      "externalAccess": false,
+      "sortOrder": 15,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Aspiration Manuelle/Électrique Intra-Utérine"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Aspiración Manual/Electrica Endouterina"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE2_D3",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Dilation & Curettage",
+      "id": "iNaI5lWtELe",
+      "displayName": "Dilation & Curettage",
+      "externalAccess": false,
+      "sortOrder": 16,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Dilatation & Curetage"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Dilatación y Curetaje"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE2_D3_Note",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Dilation & curettage' is not a recommended method by WHO but its use occurs in some settings and should be monitored.",
+      "id": "XKemY0uA2sm",
+      "displayName": "Dilation & curettage is not a recommended method by WHO but its use occurs in some settings and should be monitored.",
+      "externalAccess": false,
+      "sortOrder": 17,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "La méthode 'dilatation & curetage' n'est pas recommandée par l'OMS, mais son utilisation se produit dans certains contextes et doit être suivie."
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Dilatación y curetaje (legrado) no es un método recomendado por la OMS, pero su uso se da en algunos contextos y se debe monitorear."
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE2_D4",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Other Methods",
+      "id": "fKfBZKVcXIf",
+      "displayName": "Other Methods",
+      "externalAccess": false,
+      "sortOrder": 18,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Autres Méthodes"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Otros Métodos"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE2_D3_Total",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Total by ABORTION METHOD",
+      "id": "hGr4SGJrNFo",
+      "displayName": "Total by ABORTION METHOD",
+      "externalAccess": false,
+      "sortOrder": 19,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Total par MÉTHODE D'AVORTEMENT"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Total por MÉTODO DE ABORTO"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S3_Title",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "3. Number of people receiving post-abortion contraception",
+      "id": "FDUmlcTwj4Y",
+      "displayName": "3. Number of people receiving post-abortion contraception",
+      "externalAccess": false,
+      "sortOrder": 20,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "3. Nombre de personnes recevant une contraception post-avortement"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "3. Número de personas que reciben anticoncepción post-aborto"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S3_SubTitle",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Number of people provided with post-abortion contraception within two weeks of abortion services",
+      "id": "RxmKgA3kP2S",
+      "displayName": "Number of people provided with post-abortion contraception within two weeks of abortion services",
+      "externalAccess": false,
+      "sortOrder": 21,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Nombre de personnes recevant une contraception post-avortement dans les deux semaines suivant les services d'avortement"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Número de personas que recibieron anticoncepción post-aborto dentro de las dos semanas posteriores a los servicios de aborto"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S3_D1",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Short-term contraceptive methods",
+      "id": "xhzMUfAEdem",
+      "displayName": "Short-term contraceptive methods",
+      "externalAccess": false,
+      "sortOrder": 22,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Méthodes de contraception à court terme"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Métodos anticonceptivos de corta duración"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S3_D1_Note",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "[Includes pills, injectables, condoms (if provided as primary contraceptive method) and other short-term methods. Excludes emergency contraception.]",
+      "id": "dtx2wTa4aWd",
+      "displayName": "[Includes pills, injectables, condoms (if provided as primary contraceptive method) and other short-term methods. Excludes emergency contraception.]",
+      "externalAccess": false,
+      "sortOrder": 23,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "[Comprend les pilules, les injectables, les préservatifs (s'ils sont fournis comme méthode contraceptive principale) et les autres méthodes de courte durée. Ne comprend pas la contraception d'urgence]."
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Incluye píldoras, inyectables, preservativos (si se proporcionan como método anticonceptivo principal) y otros métodos de corta duración. Excluye la anticoncepción de emergencia]."
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S3_D2",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Long-term contraceptive methods",
+      "id": "r4vLhbSq2Mq",
+      "displayName": "Long-term contraceptive methods",
+      "externalAccess": false,
+      "sortOrder": 24,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Méthodes contraceptives à long terme"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Métodos anticonceptivos de larga duración"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S3_D2_Note",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "[Includes IUD/IUS, implants and tubal ligation]",
+      "id": "OCCBvFTnspC",
+      "displayName": "[Includes IUD/IUS, implants and tubal ligation]",
+      "externalAccess": false,
+      "sortOrder": 25,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "[Comprend le DIU, les implants et la ligature des trompes]"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "[Incluye DIU, implantes y ligadura de trompas]"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S3_Ind",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Total No. of People Receiving Post-Abortion Contraception",
+      "id": "b8xBQZkJi9D",
+      "displayName": "Total No. of People Receiving Post-Abortion Contraception",
+      "externalAccess": false,
+      "sortOrder": 26,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Nombre total de personnes recevant une contraception post-avortement"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Número total de personas que reciben anticoncepción post-aborto"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S3_D3",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Comment box",
+      "id": "OOD1XmdOViX",
+      "displayName": "Comment box",
+      "externalAccess": false,
+      "sortOrder": 27,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Case de commentaire"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Casilla de comentarios"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S3_D3_Note",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "If you would like to add any comments on this data, please do so here:",
+      "id": "FNJOhAk1dHt",
+      "displayName": "If you would like to add any comments on this data, please do so here:",
+      "externalAccess": false,
+      "sortOrder": 28,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Si vous souhaitez ajouter des commentaires sur ces données, veuillez le faire ici : "
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Si desea añadir algún comentario sobre estos datos, hágalo aquí:"
+        }
+      ],
+      "userAccesses": []
+    }
+  ]
+  "options": [
+    {
+      "code": "S1_Title",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:54:50.593",
+      "name": "1. Abortion service delivery points",
+      "id": "lZylB0A2qtP",
+      "displayName": "1. Abortion service delivery points",
+      "externalAccess": false,
+      "sortOrder": 1,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "1. Points de prestation de services d'avortement"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "1. Puntos de prestación de servicios que ofrecen servicios de aborto"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S1_DE",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Number of service delivery points providing abortion services",
+      "id": "tGU1BHcBwGI",
+      "displayName": "Number of service delivery points providing abortion services",
+      "externalAccess": false,
+      "sortOrder": 2,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Nombre de points de prestation de services offrant des services d'avortement"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Número de puntos de prestación de servicios de aborto"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S1_Note",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Service points are physical locations where abortion/post-abortion services are offered, such as a clinic, pharmacy, or community venue.",
+      "id": "fVzL3I21anM",
+      "displayName": "Service points are physical locations where abortion/post-abortion services are offered, such as a clinic, pharmacy, or community venue.",
+      "externalAccess": false,
+      "sortOrder": 3,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Les points de service sont des lieux physiques où des services sont offerts, tels qu'une clinique, une pharmacie ou un lieu communautaire."
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Los puntos de servicio se definen como lugar físico donde se ofrecen los servicios, tales como una clínica, una farmacia o un lugar comunitario."
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_Title",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "2. Number of people receiving abortion services",
+      "id": "sCThMVWoWQb",
+      "displayName": "2. Number of people receiving abortion services",
+      "externalAccess": false,
+      "sortOrder": 4,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "2. Nombre de personnes recevant des services d'avortement"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "2. Número de personas que reciben servicios de aborto "
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_SubTitle",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Number of people provided with induced abortion services or treatment for incomplete abortions (induced or spontaneous, i.e. miscarriages).",
+      "id": "D5nVRdU4Nui",
+      "displayName": "Number of people provided with induced abortion services or treatment for incomplete abortions (induced or spontaneous, i.e. miscarriages).",
+      "externalAccess": false,
+      "sortOrder": 5,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Nombre de personnes ayant bénéficié de services d'avortement provoqué ou de traitement pour avortements incomplets (provoqués ou spontanés, c'est-à-dire des fausses couches)."
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Número de personas a las que se les ha proporcionado servicios de aborto inducido o tratamiento para abortos incompletos (inducidos o espontáneos)."
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE1",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Disaggregated by AGE",
+      "id": "CnKceBL4rGi",
+      "displayName": "Disaggregated by AGE",
+      "externalAccess": false,
+      "sortOrder": 6,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Ventilé par AGE"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Desagregado por EDAD"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE1_D1",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Age 19 and Younger",
+      "id": "yw6jctW8xDF",
+      "displayName": "Age 19 and Younger",
+      "externalAccess": false,
+      "sortOrder": 7,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "19 ans et moins"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "19 Años o Menos"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE1_D2",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Age 20 and Older",
+      "id": "XAb1AxAGFu8",
+      "displayName": "Age 20 and Older",
+      "externalAccess": false,
+      "sortOrder": 8,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "20 ans et plus"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "20 Años o Más"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE1_D3",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Unknown",
+      "id": "HYLgFRaO2xU",
+      "displayName": "Unknown",
+      "externalAccess": false,
+      "sortOrder": 9,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Inconnu"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Desconocido"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE1_D3_Note",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "The age category should be known for all abortion clients. If age is unknown for any clients, please provide an explanation in the comment box at the bottom of the form.",
+      "id": "Aodyq0a3e4M",
+      "displayName": "The age category should be known for all abortion clients. If age is unknown for any clients, please provide an explanation in the comment box at the bottom of the form.",
+      "externalAccess": false,
+      "sortOrder": 10,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "La catégorie d'âge doit être connue pour toutes les clientes d'avortement. Si l'âge d'une cliente est inconnu, veuillez donner une explication dans la case de commentaire en bas du formulaire."
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "La categoría de edad debe conocerse para todxs lxs clientxs de aborto. Si se desconoce la edad, incluya una explicación en la casilla de comentarios al final del formulario."
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE1_Total",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Total by AGE",
+      "id": "dCMSL5I1YWw",
+      "displayName": "Total by AGE",
+      "externalAccess": false,
+      "sortOrder": 11,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Total par AGE"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Total por EDAD"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE2",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Disaggregated by ABORTION METHOD",
+      "id": "IpgYo7qHeHA",
+      "displayName": "Disaggregated by ABORTION METHOD",
+      "externalAccess": false,
+      "sortOrder": 12,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Ventilé par MÉTHODE D'AVORTEMENT"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Desagregado por MÉTODO DE ABORTO"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE2_D1",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Abortion with Medication",
+      "id": "fZV02SBrC0G",
+      "displayName": "Abortion with Medication",
+      "externalAccess": false,
+      "sortOrder": 13,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Avortement avec médicaments"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Aborto con medicamentos"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE2_D1_Note",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Number of people provided with misoprostol or a combination of misoprostol & mifepristone.",
+      "id": "lLcTPDoqoR3",
+      "displayName": "Number of people provided with misoprostol or a combination of misoprostol & mifepristone.",
+      "externalAccess": false,
+      "sortOrder": 14,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Nombre de personnes ayant reçu du misoprostol ou une combinaison de misoprostol & mifépristone."
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Número de personas que recibieron misoprostol o una combinación de misoprostol & mifepristona."
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE2_D2",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Manual/Electric Vacuum Aspiration",
+      "id": "yvQEf5wp5TY",
+      "displayName": "Manual/Electric Vacuum Aspiration",
+      "externalAccess": false,
+      "sortOrder": 15,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Aspiration Manuelle/Électrique Intra-Utérine"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Aspiración Manual/Electrica Endouterina"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE2_D3",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Dilation & Curettage",
+      "id": "iNaI5lWtELe",
+      "displayName": "Dilation & Curettage",
+      "externalAccess": false,
+      "sortOrder": 16,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Dilatation & Curetage"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Dilatación y Curetaje"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE2_D3_Note",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Dilation & curettage' is not a recommended method by WHO but its use occurs in some settings and should be monitored.",
+      "id": "XKemY0uA2sm",
+      "displayName": "Dilation & curettage is not a recommended method by WHO but its use occurs in some settings and should be monitored.",
+      "externalAccess": false,
+      "sortOrder": 17,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "La méthode 'dilatation & curetage' n'est pas recommandée par l'OMS, mais son utilisation se produit dans certains contextes et doit être suivie."
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Dilatación y curetaje (legrado) no es un método recomendado por la OMS, pero su uso se da en algunos contextos y se debe monitorear."
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE2_D4",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Other Methods",
+      "id": "fKfBZKVcXIf",
+      "displayName": "Other Methods",
+      "externalAccess": false,
+      "sortOrder": 18,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Autres Méthodes"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Otros Métodos"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S2_DE2_D3_Total",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Total by ABORTION METHOD",
+      "id": "hGr4SGJrNFo",
+      "displayName": "Total by ABORTION METHOD",
+      "externalAccess": false,
+      "sortOrder": 19,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Total par MÉTHODE D'AVORTEMENT"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Total por MÉTODO DE ABORTO"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S3_Title",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "3. Number of people receiving post-abortion contraception",
+      "id": "FDUmlcTwj4Y",
+      "displayName": "3. Number of people receiving post-abortion contraception",
+      "externalAccess": false,
+      "sortOrder": 20,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "3. Nombre de personnes recevant une contraception post-avortement"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "3. Número de personas que reciben anticoncepción post-aborto"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S3_SubTitle",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Number of people provided with post-abortion contraception within two weeks of abortion services",
+      "id": "RxmKgA3kP2S",
+      "displayName": "Number of people provided with post-abortion contraception within two weeks of abortion services",
+      "externalAccess": false,
+      "sortOrder": 21,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Nombre de personnes recevant une contraception post-avortement dans les deux semaines suivant les services d'avortement"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Número de personas que recibieron anticoncepción post-aborto dentro de las dos semanas posteriores a los servicios de aborto"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S3_D1",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Short-term contraceptive methods",
+      "id": "xhzMUfAEdem",
+      "displayName": "Short-term contraceptive methods",
+      "externalAccess": false,
+      "sortOrder": 22,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Méthodes de contraception à court terme"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Métodos anticonceptivos de corta duración"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S3_D1_Note",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "[Includes pills, injectables, condoms (if provided as primary contraceptive method) and other short-term methods. Excludes emergency contraception.]",
+      "id": "dtx2wTa4aWd",
+      "displayName": "[Includes pills, injectables, condoms (if provided as primary contraceptive method) and other short-term methods. Excludes emergency contraception.]",
+      "externalAccess": false,
+      "sortOrder": 23,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "[Comprend les pilules, les injectables, les préservatifs (s'ils sont fournis comme méthode contraceptive principale) et les autres méthodes de courte durée. Ne comprend pas la contraception d'urgence]."
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Incluye píldoras, inyectables, preservativos (si se proporcionan como método anticonceptivo principal) y otros métodos de corta duración. Excluye la anticoncepción de emergencia]."
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S3_D2",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Long-term contraceptive methods",
+      "id": "r4vLhbSq2Mq",
+      "displayName": "Long-term contraceptive methods",
+      "externalAccess": false,
+      "sortOrder": 24,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Méthodes contraceptives à long terme"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Métodos anticonceptivos de larga duración"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S3_D2_Note",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "[Includes IUD/IUS, implants and tubal ligation]",
+      "id": "OCCBvFTnspC",
+      "displayName": "[Includes IUD/IUS, implants and tubal ligation]",
+      "externalAccess": false,
+      "sortOrder": 25,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "[Comprend le DIU, les implants et la ligature des trompes]"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "[Incluye DIU, implantes y ligadura de trompas]"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S3_Ind",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Total No. of People Receiving Post-Abortion Contraception",
+      "id": "b8xBQZkJi9D",
+      "displayName": "Total No. of People Receiving Post-Abortion Contraception",
+      "externalAccess": false,
+      "sortOrder": 26,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Nombre total de personnes recevant une contraception post-avortement"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Número total de personas que reciben anticoncepción post-aborto"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S3_D3",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "Comment box",
+      "id": "OOD1XmdOViX",
+      "displayName": "Comment box",
+      "externalAccess": false,
+      "sortOrder": 27,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Case de commentaire"
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Casilla de comentarios"
+        }
+      ],
+      "userAccesses": []
+    },
+    {
+      "code": "S3_D3_Note",
+      "created": "2021-02-22T12:53:19.327",
+      "lastUpdated": "2021-02-22T12:53:19.468",
+      "name": "If you would like to add any comments on this data, please do so here:",
+      "id": "FNJOhAk1dHt",
+      "displayName": "If you would like to add any comments on this data, please do so here:",
+      "externalAccess": false,
+      "sortOrder": 28,
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true
+      },
+      "optionSet": {
+        "id": "JGzi5Mlajwh"
+      },
+      "favorites": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "fr",
+          "value": "Si vous souhaitez ajouter des commentaires sur ces données, veuillez le faire ici : "
+        },
+        {
+          "property": "NAME",
+          "locale": "es",
+          "value": "Si desea añadir algún comentario sobre estos datos, hágalo aquí:"
+        }
+      ],
+      "userAccesses": []
+    }
+  ]
+}

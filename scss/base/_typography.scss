@@ -49,7 +49,7 @@ h6 {
     font-family: 'Material Icons';
     font-weight: normal;
     font-style: normal;
-    font-size: 24px;
+    //font-size: 24px;
     /* Preferred icon size */
     display: inline-block;
     line-height: 1;
@@ -74,19 +74,19 @@ h6 {
 /* Rules for sizing the icon. */
 
 .md-18 {
-    font-size: 18px;
+    font-size: 18px!important;
 }
 
 .md-24 {
-    font-size: 24px;
+    font-size: 24px!important;
 }
 
 .md-36 {
-    font-size: 36px;
+    font-size: 36px!important;
 }
 
 .md-48 {
-    font-size: 48px;
+    font-size: 48px!important;
 }
 
 /* Rules for using icons as black on a light background. */
