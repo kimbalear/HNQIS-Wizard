@@ -29,7 +29,7 @@
             .title{
                 float: left;
                 text-align: center;
-                width: calc(100% - 206px);
+                width: calc(100% - 180px);
                 line-height: 28px;
                 color: #FFF;
             }
@@ -43,29 +43,6 @@
                     cursor: pointer;
                   }
             }
-        }
-
-        .grid-row2_3 {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr;
-            gap: 0px 0px;
-            background-color: #f3f3f3;
-            border-radius: 0 0 4px 4px;
-            grid-template-areas:
-                "col1 col2 col3";
-        }
-
-        .col1 {
-            grid-area: col1;
-        }
-
-        .col2 {
-            grid-area: col2;
-        }
-
-        .col3 {
-            grid-area: col3;
         }
     }
 

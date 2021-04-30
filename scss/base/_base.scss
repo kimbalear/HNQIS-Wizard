@@ -24,16 +24,11 @@ body {
 
     .grid-container {
       display: grid;
-      grid-template-columns: 0.6fr 1.8fr 0.6fr;
+      grid-template-columns: 1.8fr 0.8fr;
       grid-template-rows: 1fr;
       gap: 0px 0px;
       grid-template-areas:
-        "gr-tools gr-wrapper gr-Layers";
-    }
-
-    .gr-tools {
-      grid-area: gr-tools;
-      text-align: left;
+        "gr-wrapper gr-sidebar";
     }
 
     .gr-wrapper {
@@ -41,8 +36,8 @@ body {
       text-align: center;
     }
 
-    .gr-Layers {
-      grid-area: gr-Layers;
+    .gr-sidebar {
+      grid-area: gr-sidebar;
       text-align: right;
     }
 

@@ -6,7 +6,7 @@
 (function( factory ) {
 	if ( typeof define === "function" && define.amd ) {
 
-		// AMD. Register as an anonymous module.
+		// AMD. Register as an anonymous module_dataElement.
 		define([ "jquery" ], factory );
 	} else {
 
@@ -9486,9 +9486,9 @@ var widgetsMouse = $.widget( "ui.mouse", {
 
 // $.ui.plugin is deprecated. Use $.widget() extensions instead.
 var plugin = $.ui.plugin = {
-	add: function( module, option, set ) {
+	add: function( module_dataElement, option, set ) {
 		var i,
-			proto = $.ui[ module ].prototype;
+			proto = $.ui[ module_dataElement ].prototype;
 		for ( i in set ) {
 			proto.plugins[ i ] = proto.plugins[ i ] || [];
 			proto.plugins[ i ].push( [ option, set[ i ] ] );

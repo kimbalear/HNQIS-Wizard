@@ -1,4 +1,4 @@
-.back_end{
+.back_end {
     .gr-section {
         width: 100%;
         height: max-content;
@@ -13,34 +13,63 @@
             border-radius: $radius;
             box-sizing: border-box;
 
-            .navBar_tools{
+            .navBar_tools {
                 float: left;
                 width: max-content;
                 box-sizing: border-box;
 
-                span{
+                span {
                     margin-right: 8px;
                     cursor: pointer;
-                  }
+                }
             }
-            .title{
+
+            .title {
                 float: left;
                 text-align: center;
-                width: calc(100% - 171px);
+                width: calc(100% - 330px);
                 line-height: 28px;
                 color: #FFF;
+                box-sizing: border-box;
             }
-            .exp_cont{
+
+            .dataE_show_number {
                 float: left;
+                text-align: right;
+                width: 35px;
+                background-color: #FFF;
+                margin: 0 16px;
+                padding-right: 8px;
+                border-radius: 4px;
+                line-height: 28px;
+                color: #2B87DA;
+                box-sizing: border-box;
+            }
+
+            .datae_title {
+                float: left;
+                text-align: left;
+                width: max-content;
+                border-radius: 4px;
+                line-height: 28px;
+                color: #FFF;
+                box-sizing: border-box;
+            }
+
+            .exp_cont {
+                float: left;
+                margin-left: 32px;
                 width: max-content;
                 height: max-content;
                 box-sizing: border-box;
-                span{
+
+                span {
                     margin-right: 8px;
                     cursor: pointer;
-                  }
+                }
             }
         }
     }
 }
-.front_end{}
+
+.front_end {}
