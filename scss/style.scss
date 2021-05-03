@@ -30,7 +30,8 @@
 @import 'components/_section.scss',
 'components/_row.scss',
 'components/_module_dE.scss',
-'components/_sidebar.scss';
+'components/_sidebar.scss',
+'components/input';
 
 @include button(map-keys($button-colors)...);
 @include themable(theme-green, $green-fc-50, $green-bg-50, $green-fc-100, $green-bg-100, $green-fc-200, $green-bg-200, $green-fc-300, $green-bg-300, $green-fc-400, $green-bg-400, $green-fc-500, $green-bg-500, $green-fc-600, $green-bg-600, $green-fc-700, $green-bg-700, $green-fc-800, $green-bg-800, $green-fc-900, $green-bg-900);

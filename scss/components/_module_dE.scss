@@ -10,42 +10,175 @@
         .grid-dElement_settings {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
             gap: 4px 4px;
             grid-template-areas:
                 "l1c1 l1c2"
-                "l2c1 l2c2"
-                "l3c1 l3c2";
+                "l2c1 l2c2";
         }
 
         .l1c1 {
             grid-area: l1c1;
-            border: 1px solid #333;
+            padding: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.596);
+            border-radius: 4px;
+
+            .input_cont {
+                width: 100%;
+                height: max-content;
+                margin-bottom: 12px;
+                box-sizing: border-box;
+
+                .input_label {
+                    width: 100%;
+                    height: 16px;
+                    font-size: 12px;
+                    text-align: left;
+                    line-height: 16px;
+                    padding: 2px 8px;
+                    border-radius: 4px 4px 0 0;
+                    color: #868686;
+                    background-color: #F5F5F5;
+                    box-sizing: border-box;
+                }
+
+                .input_de {
+                    width: 100%;
+                    height: max-content;
+                    text-align: left;
+                    box-sizing: border-box;
+                }
+            }
         }
 
         .l2c1 {
             grid-area: l2c1;
-            border: 1px solid #333;
-        }
+            padding: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.596);
+            border-radius: 4px;
 
-        .l3c1 {
-            grid-area: l3c1;
-            border: 1px solid #333;
+            .input_cont {
+                width: 100%;
+                height: max-content;
+                margin-bottom: 12px;
+                box-sizing: border-box;
+
+                .input_label {
+                    width: 100%;
+                    height: 16px;
+                    font-size: 12px;
+                    text-align: left;
+                    line-height: 16px;
+                    padding: 2px 8px;
+                    border-radius: 4px 4px 0 0;
+                    color: #868686;
+                    background-color: #F5F5F5;
+                    box-sizing: border-box;
+                }
+
+                .input_de {
+                    width: 100%;
+                    height: max-content;
+                    text-align: left;
+                    box-sizing: border-box;
+                }
+            }
         }
 
         .l1c2 {
             grid-area: l1c2;
-            border: 1px solid #333;
+            padding: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.596);
+            border-radius: 4px;
+
+            .input_cont {
+                width: 100%;
+                height: max-content;
+                margin-bottom: 12px;
+                box-sizing: border-box;
+
+                .input_label {
+                    width: 100%;
+                    height: 16px;
+                    font-size: 12px;
+                    text-align: left;
+                    line-height: 16px;
+                    padding: 2px 8px;
+                    border-radius: 4px 4px 0 0;
+                    color: #868686;
+                    background-color: #F5F5F5;
+                    box-sizing: border-box;
+                }
+
+                .input_de {
+                    width: 100%;
+                    height: max-content;
+                    text-align: left;
+                    box-sizing: border-box;
+                }
+            }
         }
 
         .l2c2 {
             grid-area: l2c2;
-            border: 1px solid #333;
-        }
+            padding: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.596);
+            border-radius: 4px;
 
-        .l3c2 {
-            grid-area: l3c2;
-            border: 1px solid #333;
+            .input_cont {
+                width: 100%;
+                height: max-content;
+                margin-bottom: 12px;
+                box-sizing: border-box;
+
+                .input_label {
+                    width: 100%;
+                    height: 16px;
+                    font-size: 12px;
+                    text-align: left;
+                    line-height: 16px;
+                    padding: 2px 8px;
+                    border-radius: 4px 4px 0 0;
+                    color: #868686;
+                    background-color: #F5F5F5;
+                    box-sizing: border-box;
+                }
+
+                .input_de {
+                    width: 100%;
+                    height: max-content;
+                    text-align: left;
+                    box-sizing: border-box;
+
+                    textarea {
+                        width: 100%;
+                    }
+                }
+
+                
+            }
+        }
+    }
+
+    .editor_de {
+        width: 100%;
+        height: 50px;
+        border: 1px solid #333;
+        background-color: #F5F5F5;
+        box-sizing: border-box;
+    }
+
+    .textarea_container {
+        width: 100%;
+        border: 1px solid #38c;
+        box-sizing: border-box;
+
+        textarea {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            border-width: 0;
+            background-color: #F5F5F5;
         }
     }
 }
