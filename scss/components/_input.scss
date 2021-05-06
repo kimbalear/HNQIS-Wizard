@@ -13,11 +13,13 @@
         font-size: 14px;
         color: #333;
         border-bottom: 1px solid #333;
-    }
 
-    input:focus {
-        border-bottom: 1px solid #29C4A9;
-        color: #000;
+        &:focus {
+            border-bottom: 1px solid #29C4A9;
+            color: #000;
+            outline: none !important;
+            
+        }
     }
 
     input[type=number]::-webkit-inner-spin-button,

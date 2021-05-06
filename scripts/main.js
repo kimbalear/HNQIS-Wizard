@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function ($) {
   var vw = $(window).width();
   var vh = $(window).height();
   var letsGo_slider = 0;
@@ -7,6 +7,9 @@ $(document).ready(function () {
   var currenturl = window.location.hostname;
 
   var button_cls = "";
+
+  $( '#f_order' ).mask('S.S.S', {reverse: true});
+  $( '#_Weight' ).mask('0.0', {reverse: true});
 
   var count = 0; // needed for safari
   window.onload = function () {
@@ -195,7 +198,7 @@ $(document).ready(function () {
     switch (cta_slider) {
       // - 0
       case "fab_next-0":
-      
+
         break;
 
       case "fab_back-0":
@@ -217,7 +220,7 @@ $(document).ready(function () {
         $(".fab_back").hide("slide", { direction: "down" }, 500);
         $("#box0").show("slide", { direction: "down" }, 3000);
         $("#box1").hide("slide", { direction: "down" }, 500);
-        
+
         break;
 
       // - 1
@@ -272,7 +275,7 @@ $(document).ready(function () {
       case "fab_next-2":
         console.log('slider_2: ' + sld_number);
         $("#box1").hide("slide", { direction: "down" }, 500);
-        
+
         $("#letsGo_1").hide("slide", { direction: "left" }, 500);
 
         $(".letsGo").css({
@@ -284,16 +287,16 @@ $(document).ready(function () {
 
         break;
 
-        case "fab_back-2":
-          console.log('fab_back_2: ' + sld_number);
-          $("#box1").hide("slide", { direction: "down" }, 500);
+      case "fab_back-2":
+        console.log('fab_back_2: ' + sld_number);
+        $("#box1").hide("slide", { direction: "down" }, 500);
 
-          $("#letsGo_3").hide("slide", { direction: "down" }, 1000);
+        $("#letsGo_3").hide("slide", { direction: "down" }, 1000);
         $(".letsGo").css({
           "background-image": "none",
           "background-color": "#F7B01A"
         }, 1000);
-        $("#letsGo_2").show  ("slide", { direction: "left" }, 1200);
+        $("#letsGo_2").show("slide", { direction: "left" }, 1200);
         $(".fab_next").show("slide", { direction: "down" }, 500);
         $("#box_thanks").hide();
 
@@ -317,7 +320,7 @@ $(document).ready(function () {
 
         break;
 
-        case "fab_next-3":
+      case "fab_next-3":
         console.log('slider_1: ' + sld_number);
         $("#box2").show("slide", { direction: "down" }, 500);
 
@@ -380,27 +383,28 @@ $(document).ready(function () {
     $(".list").show();
     $("Body").css({
       "background-image": "url('/images/logo_bk.svg')"
+    });
+
+
+
+    //calc inputs
+    $("#_houses").change(function () {
+      //console.log($("#_houses").val());
+      calc1($("#_houses").val(), $("#_animals").val());
+    });
+
+    $("#_animals").change(function () {
+      //console.log($("#_animals").val());
+      calc1($("#_houses").val(), $("#_animals").val());
+    });
+
+    function calc1(h, a) {
+      var result = h / a;
+      if (result != "Infinity") {
+        $("#_result").html(result);
+      }
+
+    };
+
   });
-
-
-
-  //calc inputs
-  $("#_houses").change(function () {
-    //console.log($("#_houses").val());
-    calc1($("#_houses").val(), $("#_animals").val());
-  });
-
-  $("#_animals").change(function () {
-    //console.log($("#_animals").val());
-    calc1($("#_houses").val(), $("#_animals").val());
-  });
-
-  function calc1(h, a) {
-    var result = h / a;
-    if (result != "Infinity") {
-      $("#_result").html(result);
-    }
-
-  };
-
 });

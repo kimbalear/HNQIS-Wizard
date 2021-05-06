@@ -1418,11 +1418,12 @@ body .wrapper {
   background-color: #E5E5E5;
   box-sizing: border-box;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 body .wrapper .grid-container {
   display: grid;
   grid-template-columns: 1.8fr 0.8fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 62%;
   gap: 0px 0px;
   grid-template-areas: "gr-wrapper gr-sidebar";
 }
@@ -1430,7 +1431,7 @@ body .wrapper .gr-wrapper {
   grid-area: gr-wrapper;
   text-align: left;
   width: 100%;
-  height: calc(100% - 272px);
+  height: 100%;
   box-sizing: border-box;
 }
 body .wrapper .gr-wrapper .gr-wrapper_cont {
@@ -1438,6 +1439,7 @@ body .wrapper .gr-wrapper .gr-wrapper_cont {
   height: 100%;
   overflow-y: auto;
   box-sizing: border-box;
+  overflow-y: scroll;
 }
 body .wrapper .gr-sidebar {
   grid-area: gr-sidebar;
@@ -1513,21 +1515,6 @@ body ::-webkit-scrollbar-thumb {
 }
 body ::-webkit-scrollbar-thumb:hover {
   background: #555;
-}
-body input:-webkit-autofill,
-body input:-webkit-autofill:hover,
-body input:-webkit-autofill:focus,
-body textarea:-webkit-autofill,
-body textarea:-webkit-autofill:hover,
-body textarea:-webkit-autofill:focus,
-body select:-webkit-autofill,
-body select:-webkit-autofill:hover,
-body select:-webkit-autofill:focus {
-  border: 1px solid rgba(255, 255, 255, 0.01);
-  -webkit-text-fill-color: #4753A3;
-  -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.01) inset;
-  -webkit-transition: background-color 5000s ease-in-out 0s;
-  transition: background-color 5000s ease-in-out 0s;
 }
 
 .back_end .gr-section {
@@ -1648,9 +1635,9 @@ body select:-webkit-autofill:focus {
 .back_end .module_dataElement .grid-dElement_settings {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   gap: 4px 4px;
-  grid-template-areas: "l1c1 l1c2" "l2c1 l2c2";
+  grid-template-areas: "l1c1 l1c2";
 }
 .back_end .module_dataElement .l1c1 {
   grid-area: l1c1;
@@ -1682,35 +1669,57 @@ body select:-webkit-autofill:focus {
   text-align: left;
   box-sizing: border-box;
 }
-.back_end .module_dataElement .l2c1 {
-  grid-area: l2c1;
-  padding: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.596);
-  border-radius: 4px;
-}
-.back_end .module_dataElement .l2c1 .input_cont {
+.back_end .module_dataElement .l1c1 .input_cont .input_de select {
   width: 100%;
-  height: max-content;
-  margin-bottom: 12px;
-  box-sizing: border-box;
-}
-.back_end .module_dataElement .l2c1 .input_cont .input_label {
-  width: 100%;
-  height: 16px;
-  font-size: 12px;
-  text-align: left;
-  line-height: 16px;
-  padding: 2px 8px;
-  border-radius: 4px 4px 0 0;
-  color: #868686;
+  border: 1px solid #F5F5F5;
   background-color: #F5F5F5;
-  box-sizing: border-box;
+  padding: 8px;
+  border: 2px solid #F5F5F5;
+  color: -internal-light-dark(#29C4A9, white);
+  border-bottom: 1px solid #333;
+  cursor: pointer;
 }
-.back_end .module_dataElement .l2c1 .input_cont .input_de {
-  width: 100%;
-  height: max-content;
-  text-align: left;
-  box-sizing: border-box;
+.back_end .module_dataElement .l1c1 .input_cont .input_de select:focus {
+  border-bottom: 1px solid #29C4A9;
+  color: #000;
+}
+.back_end .module_dataElement .l1c1 .input_cont .input_de select option {
+  padding: 8px;
+  border: 1px solid #29C4A9;
+}
+.back_end .module_dataElement .l1c1 .input_cont .input_de .flipswitch {
+  float: right;
+  width: 73px;
+  width: 18px;
+  margin: 3px;
+  background: #FFFFFF;
+  border: 0px solid #EBEBEB;
+  border-radius: 50px;
+  position: absolute;
+  transition: all 0.3s ease-in 0s;
+}
+.back_end .module_dataElement .l1c1 .input_cont .input_de .flipswitch input[type=checkbox] {
+  display: none;
+}
+.back_end .module_dataElement .l1c1 .input_cont .input_de .flipswitch .flipswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 0px solid #EBEBEB;
+  border-radius: 50px;
+}
+.back_end .module_dataElement .l1c1 .input_cont .input_de .flipswitch:after {
+  content: "yes";
+  padding-left: 12px;
+  background-color: #29C4A9;
+  color: #333333;
+}
+.back_end .module_dataElement .l1c1 .input_cont .input_de .flipswitch:before {
+  content: "Yes";
+  padding-right: 12px;
+  background-color: #EBEBEB;
+  color: #333;
+  text-align: right;
 }
 .back_end .module_dataElement .l1c2 {
   grid-area: l1c2;
@@ -1721,7 +1730,9 @@ body select:-webkit-autofill:focus {
 .back_end .module_dataElement .l1c2 .input_cont {
   width: 100%;
   height: max-content;
+  min-height: 58px;
   margin-bottom: 12px;
+  background-color: #F5F5F5;
   box-sizing: border-box;
 }
 .back_end .module_dataElement .l1c2 .input_cont .input_label {
@@ -1742,57 +1753,344 @@ body select:-webkit-autofill:focus {
   text-align: left;
   box-sizing: border-box;
 }
-.back_end .module_dataElement .l2c2 {
-  grid-area: l2c2;
-  padding: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.596);
-  border-radius: 4px;
-}
-.back_end .module_dataElement .l2c2 .input_cont {
+.back_end .module_dataElement .l1c2 .input_cont .input_de select {
   width: 100%;
-  height: max-content;
-  margin-bottom: 12px;
-  box-sizing: border-box;
-}
-.back_end .module_dataElement .l2c2 .input_cont .input_label {
-  width: 100%;
-  height: 16px;
-  font-size: 12px;
-  text-align: left;
-  line-height: 16px;
-  padding: 2px 8px;
-  border-radius: 4px 4px 0 0;
-  color: #868686;
+  border: 1px solid #F5F5F5;
   background-color: #F5F5F5;
+  padding: 8px;
+  border: 2px solid #F5F5F5;
+  color: -internal-light-dark(#29C4A9, white);
+  border-bottom: 1px solid #333;
+  cursor: pointer;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de select:focus {
+  border-bottom: 1px solid #29C4A9;
+  color: #000;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de select option {
+  padding: 8px;
+  border: 1px solid #29C4A9;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Critical {
+  position: relative;
+  width: 90px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  margin: 0px auto;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Critical .switch_Critical-checkbox {
+  display: none;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Critical .switch_Critical-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #999999;
+  border-radius: 20px;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Critical .switch_Critical-label .switch_Critical-switch {
+  width: 18px;
+  margin: 6px;
+  background: #FFFFFF;
+  border: 2px solid #999999;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 56px;
+  -moz-transition: all 0.3s ease-in 0s;
+  -webkit-transition: all 0.3s ease-in 0s;
+  -o-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Critical .switch_Critical-label .switch_Critical-inner {
+  width: 200%;
+  margin-left: -100%;
+  -moz-transition: margin 0.3s ease-in 0s;
+  -webkit-transition: margin 0.3s ease-in 0s;
+  -o-transition: margin 0.3s ease-in 0s;
+  transition: margin 0.3s ease-in 0s;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Critical .switch_Critical-label .switch_Critical-inner:before, .back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Critical .switch_Critical-label .switch_Critical-inner:after {
+  float: left;
+  width: 50%;
+  height: 30px;
+  padding: 0;
+  line-height: 30px;
+  font-size: 14px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-.back_end .module_dataElement .l2c2 .input_cont .input_de {
-  width: 100%;
-  height: max-content;
-  text-align: left;
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Critical .switch_Critical-label .switch_Critical-inner:before {
+  content: "NO";
+  padding-right: 35px;
+  background-color: #EEEEEE;
+  color: #999999;
+  text-align: right;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Critical .switch_Critical-label .switch_Critical-inner:after {
+  content: "YES";
+  padding-left: 35px;
+  background-color: #29C4A9;
+  color: #FFFFFF;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Compulsary {
+  position: relative;
+  width: 90px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  margin: 0px auto;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Compulsary .switch_Compulsary-checkbox {
+  display: none;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Compulsary .switch_Compulsary-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #999999;
+  border-radius: 20px;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Compulsary .switch_Compulsary-label .switch_Compulsary-switch {
+  width: 18px;
+  margin: 6px;
+  background: #FFFFFF;
+  border: 2px solid #999999;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 56px;
+  -moz-transition: all 0.3s ease-in 0s;
+  -webkit-transition: all 0.3s ease-in 0s;
+  -o-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Compulsary .switch_Compulsary-label .switch_Compulsary-inner {
+  width: 200%;
+  margin-left: -100%;
+  -moz-transition: margin 0.3s ease-in 0s;
+  -webkit-transition: margin 0.3s ease-in 0s;
+  -o-transition: margin 0.3s ease-in 0s;
+  transition: margin 0.3s ease-in 0s;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Compulsary .switch_Compulsary-label .switch_Compulsary-inner:before, .back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Compulsary .switch_Compulsary-label .switch_Compulsary-inner:after {
+  float: left;
+  width: 50%;
+  height: 30px;
+  padding: 0;
+  line-height: 30px;
+  font-size: 14px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-.back_end .module_dataElement .l2c2 .input_cont .input_de textarea {
-  width: 100%;
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Compulsary .switch_Compulsary-label .switch_Compulsary-inner:before {
+  content: "NO";
+  padding-right: 35px;
+  background-color: #EEEEEE;
+  color: #999999;
+  text-align: right;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Compulsary .switch_Compulsary-label .switch_Compulsary-inner:after {
+  content: "YES";
+  padding-left: 35px;
+  background-color: #29C4A9;
+  color: #FFFFFF;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Weight {
+  position: relative;
+  width: 90px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  margin: 0px auto;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Weight .switch_Weight-checkbox {
+  display: none;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Weight .switch_Weight-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #999999;
+  border-radius: 20px;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Weight .switch_Weight-label .switch_Weight-switch {
+  width: 18px;
+  margin: 6px;
+  background: #FFFFFF;
+  border: 2px solid #999999;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 56px;
+  -moz-transition: all 0.3s ease-in 0s;
+  -webkit-transition: all 0.3s ease-in 0s;
+  -o-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Weight .switch_Weight-label .switch_Weight-inner {
+  width: 200%;
+  margin-left: -100%;
+  -moz-transition: margin 0.3s ease-in 0s;
+  -webkit-transition: margin 0.3s ease-in 0s;
+  -o-transition: margin 0.3s ease-in 0s;
+  transition: margin 0.3s ease-in 0s;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Weight .switch_Weight-label .switch_Weight-inner:before, .back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Weight .switch_Weight-label .switch_Weight-inner:after {
+  float: left;
+  width: 50%;
+  height: 30px;
+  padding: 0;
+  line-height: 30px;
+  font-size: 14px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Weight .switch_Weight-label .switch_Weight-inner:before {
+  content: "NO";
+  padding-right: 35px;
+  background-color: #EEEEEE;
+  color: #999999;
+  text-align: right;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Weight .switch_Weight-label .switch_Weight-inner:after {
+  content: "YES";
+  padding-left: 35px;
+  background-color: #29C4A9;
+  color: #FFFFFF;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Critical-checkbox:checked + .switch_Critical-label .switch_Critical-inner {
+  margin-left: 0;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Critical-checkbox:checked + .switch_Critical-label .switch_Critical-switch {
+  right: 0px;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Compulsary-checkbox:checked + .switch_Compulsary-label .switch_Compulsary-inner {
+  margin-left: 0;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Compulsary-checkbox:checked + .switch_Compulsary-label .switch_Compulsary-switch {
+  right: 0px;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Weight-checkbox:checked + .switch_Weight-label .switch_Weight-inner {
+  margin-left: 0;
+}
+.back_end .module_dataElement .l1c2 .input_cont .input_de .switch_Weight-checkbox:checked + .switch_Weight-label .switch_Weight-switch {
+  right: 0px;
 }
 .back_end .editor_de {
   width: 100%;
-  height: 50px;
-  border: 1px solid #333;
+  height: 32px;
+  padding: 2px 0px 2px 0px;
   background-color: #F5F5F5;
   box-sizing: border-box;
 }
+.back_end .editor_de .less {
+  float: left;
+  text-align: right;
+  width: max-content;
+  height: max-content;
+  padding: 1px;
+  background-color: #F5F5F5;
+  border-top: 1px solid #d4d4d4;
+  border-left: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+  border-radius: 2px 0 0 2px;
+  line-height: 24px;
+  color: #333;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.back_end .editor_de .f_data {
+  float: left;
+  text-align: right;
+  width: 32px;
+  padding: 0 4px;
+  background-color: #F5F5F5;
+  border: 1px solid #d4d4d4;
+  line-height: 26px;
+  color: #333;
+  box-sizing: border-box;
+}
+.back_end .editor_de .more {
+  float: left;
+  text-align: right;
+  width: max-content;
+  height: max-content;
+  padding: 1px;
+  background-color: #F5F5F5;
+  border-top: 1px solid #d4d4d4;
+  border-right: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+  border-radius: 0 2px 2px 0;
+  line-height: 24px;
+  color: #333;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.back_end .editor_de .style_font {
+  float: left;
+  text-align: right;
+  width: max-content;
+  height: max-content;
+  padding: 1px;
+  background-color: #F5F5F5;
+  border-top: 1px solid #F5F5F5;
+  border-right: 1px solid #F5F5F5;
+  border-bottom: 1px solid #F5F5F5;
+  line-height: 24px;
+  color: #333;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.back_end .editor_de .style_font_align {
+  float: left;
+  text-align: right;
+  width: max-content;
+  height: max-content;
+  padding: 1px;
+  background-color: #F5F5F5;
+  border-top: 1px solid #F5F5F5;
+  border-right: 1px solid #F5F5F5;
+  border-bottom: 1px solid #F5F5F5;
+  line-height: 24px;
+  color: #333;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.back_end .editor_de .style_font_align span {
+  float: left;
+}
 .back_end .textarea_container {
   width: 100%;
-  border: 1px solid #38c;
   box-sizing: border-box;
 }
 .back_end .textarea_container textarea {
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 8px;
   border-width: 0;
+  min-height: 70px;
   background-color: #F5F5F5;
+  border-bottom: 1px solid #333;
+  resize: none;
+  outline-style: none;
+}
+.back_end .textarea_container textarea:focus {
+  border-bottom: 1px solid #29C4A9;
+  color: #000;
 }
 
 .sidebar1 {
@@ -1886,6 +2184,7 @@ body select:-webkit-autofill:focus {
 .input_de input:focus {
   border-bottom: 1px solid #29C4A9;
   color: #000;
+  outline: none !important;
 }
 .input_de input[type=number]::-webkit-inner-spin-button,
 .input_de input[type=number]::-webkit-outer-spin-button {

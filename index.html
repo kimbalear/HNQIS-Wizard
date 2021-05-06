@@ -13,6 +13,7 @@
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://cdn.rawgit.com/igorescobar/jQuery-Mask-Plugin/1ef022ab/dist/jquery.mask.min.js"></script>
   <script type="text/javascript" src="scripts/main.js"></script>
 
 </head>
@@ -90,9 +91,6 @@
 
                   <div class="input_cont">
                     <div class="input_label">Description</div>
-                    <div class="editor_de">
-                      <div class="editor_f_size"></div>
-                    </div>
                     <div class="textarea_container">
                       <textarea></textarea>
                     </div>
@@ -101,16 +99,29 @@
 
                   <div class="input_cont">
                     <div class="input_label">Data Value Type</div>
-                    <div class="input_de"><input type="text"></div>
+                    <div class="input_de">
+                      <select name="DataValueType" id="">
+                        <option value="1">lorem ipsum 1</option>
+                        <option value="1">lorem ipsum 2</option>
+                        <option value="1">lorem ipsum 3</option>
+                        <option value="1">lorem ipsum 4</option>
+                        <option value="1">lorem ipsum 5</option>
+                      </select>
+                    </div>
                   </div>
 
                   <div class="input_cont">
                     <div class="input_label">Options Set</div>
-                    <div class="input_de"><input type="text"></div>
+                    <div class="input_de">
+                      <select name="DataValueType" id="">
+                        <option value="1">lorem ipsum 1</option>
+                        <option value="1">lorem ipsum 2</option>
+                        <option value="1">lorem ipsum 3</option>
+                        <option value="1">lorem ipsum 4</option>
+                        <option value="1">lorem ipsum 5</option>
+                      </select>
+                    </div>
                   </div>
-
-                </div>
-                <div class="l2c1">
 
                   <div class="input_cont">
                     <div class="input_label">Rule</div>
@@ -122,17 +133,217 @@
 
                   <div class="input_cont">
                     <div class="input_label">Feedback Order</div>
-                    <div class="input_de"><input type="text"></div>
+                    <div class="input_de"><input type="text" id="f_order"></div>
                   </div>
 
                   <div class="input_cont">
-                    <div class="input_label">Feedback Text</div>
-                    <div class="input_de"><input type="text"></div>
+                    <div class="input_label">Feedback text</div>
+                    <div class="editor_de">
+                      <div class="editor_f_size">
+                        <div class="less"><span class="material-icons">
+                            keyboard_arrow_left
+                          </span></div>
+                        <div class="f_data">12</div>
+                        <div class="more">
+                          <span class="material-icons">keyboard_arrow_right</span>
+                        </div>
+                      </div>
+                      <div class="style_font">
+                        <span class="material-icons">format_bold</span>
+                      </div>
+                      <div class="style_font">
+                        <span class="material-icons">format_italic</span>
+                      </div>
+                      <div class="style_font">
+                        <span class="material-icons">format_underlined</span>
+                      </div>
+                      <div class="style_font_align">
+                        <span class="material-icons">format_align_left</span>
+                        <span class="material-icons">expand_more</span>
+                      </div>
+                    </div>
+                    <div class="textarea_container">
+                      <textarea></textarea>
+                    </div>
+
                   </div>
 
                   <div class="input_cont">
                     <div class="input_label">Critical</div>
+                    <div class="input_de">
+                      <div class="input_de">
+                        <div class="switch_Critical">
+                          <input type="checkbox" name="switch_Critical" class="switch_Critical-checkbox"
+                            id="switch_Critical" checked>
+                          <label class="switch_Critical-label" for="switch_Critical">
+                            <div class="switch_Critical-inner"></div>
+                            <div class="switch_Critical-switch"></div>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="input_cont">
+                    <div class="input_label">Compulsary</div>
+                    <div class="input_de">
+                      <div class="switch_Compulsary">
+                        <input type="checkbox" name="switch_Compulsary" class="switch_Compulsary-checkbox"
+                          id="switch_Compulsary" checked>
+                        <label class="switch_Compulsary-label" for="switch_Compulsary">
+                          <div class="switch_Compulsary-inner"></div>
+                          <div class="switch_Compulsary-switch"></div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="input_cont">
+                    <div class="input_label">Weight</div>
+                    <div class="input_de">
+                      <div class="switch_Weight">
+                        <input type="checkbox" name="switch_Weight" class="switch_Weight-checkbox" id="switch_Weight"
+                          checked>
+                        <label class="switch_Weight-label" for="switch_Weight">
+                          <div class="switch_Weight-inner"></div>
+                          <div class="switch_Weight-switch"></div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="input_cont">
+                    <div class="input_label">Contributes to</div>
+                    <div class="input_de">
+                      <select name="DataValueType" id="">
+                        <option value="1">lorem ipsum 1</option>
+                        <option value="1">lorem ipsum 2</option>
+                        <option value="1">lorem ipsum 3</option>
+                        <option value="1">lorem ipsum 4</option>
+                        <option value="1">lorem ipsum 5</option>
+                      </select>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gr-row">
+            <div class="navBar">
+              <div class="navBar_tools">
+                <span class="material-icons md-light md-24">open_with</span>
+                <span class="material-icons md-light md-24">settings</span>
+                <span class="material-icons md-light md-24">content_copy</span>
+                <span class="material-icons md-light md-24">delete</span>
+              </div>
+              <div class="title">Data Element 1</div>
+              <div class="exp_cont"><span class="material-icons md-light md-24">expand_less</span></div>
+            </div>
+            <div class="module_dataElement">
+              <div class="grid-dElement_settings">
+                <div class="l1c1">
+                  <div class="input_cont">
+                    <div class="input_label">Short Name</div>
+                    <div class="input_de"><input type="text" id="shor_name" name="shor_name" maxlength="45"></div>
+                  </div>
+
+                  <div class="input_cont">
+                    <div class="input_label">Form Name</div>
+                    <div class="input_de"><input type="text" id="form_name" name="form_name" maxlength="230"></div>
+                  </div>
+
+                  <div class="input_cont">
+                    <div class="input_label">Description</div>
+                    <div class="textarea_container">
+                      <textarea></textarea>
+                    </div>
+
+                  </div>
+
+                  <div class="input_cont">
+                    <div class="input_label">Data Value Type</div>
+                    <div class="input_de">
+                      <select name="DataValueType" id="">
+                        <option value="1">lorem ipsum 1</option>
+                        <option value="1">lorem ipsum 2</option>
+                        <option value="1">lorem ipsum 3</option>
+                        <option value="1">lorem ipsum 4</option>
+                        <option value="1">lorem ipsum 5</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="input_cont">
+                    <div class="input_label">Options Set</div>
+                    <div class="input_de">
+                      <select name="DataValueType" id="">
+                        <option value="1">lorem ipsum 1</option>
+                        <option value="1">lorem ipsum 2</option>
+                        <option value="1">lorem ipsum 3</option>
+                        <option value="1">lorem ipsum 4</option>
+                        <option value="1">lorem ipsum 5</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="input_cont">
+                    <div class="input_label">Rule</div>
                     <div class="input_de"><input type="text"></div>
+                  </div>
+
+                </div>
+                <div class="l1c2">
+
+                  <div class="input_cont">
+                    <div class="input_label">Feedback Order</div>
+                    <div class="input_de"><input type="text" id="f_order"></div>
+                  </div>
+
+                  <div class="input_cont">
+                    <div class="input_label">Feedback text</div>
+                    <div class="editor_de">
+                      <div class="editor_f_size">
+                        <div class="less"><span class="material-icons">
+                            keyboard_arrow_left
+                          </span></div>
+                        <div class="f_data">12</div>
+                        <div class="more">
+                          <span class="material-icons">keyboard_arrow_right</span>
+                        </div>
+                      </div>
+                      <div class="style_font">
+                        <span class="material-icons">format_bold</span>
+                      </div>
+                      <div class="style_font">
+                        <span class="material-icons">format_italic</span>
+                      </div>
+                      <div class="style_font">
+                        <span class="material-icons">format_underlined</span>
+                      </div>
+                      <div class="style_font_align">
+                        <span class="material-icons">format_align_left</span>
+                        <span class="material-icons">expand_more</span>
+                      </div>
+                    </div>
+                    <div class="textarea_container">
+                      <textarea></textarea>
+                    </div>
+
+                  </div>
+
+                  <div class="input_cont">
+                    <div class="input_label">Critical</div>
+                    <div class="input_de">
+                      <div class="flipswitch">
+                        <input type="checkbox" name="flipswitch" class="flipswitch-cb" id="fs" checked>
+                        <label class="flipswitch-label" for="fs">
+                          <div class="flipswitch-inner"></div>
+                          <div class="flipswitch-switch"></div>
+                        </label>
+                      </div>
+                    </div>
                   </div>
 
                   <div class="input_cont">
@@ -142,23 +353,29 @@
 
                   <div class="input_cont">
                     <div class="input_label">Weight</div>
-                    <div class="input_de"><input type="text"></div>
+                    <div class="input_de"><input type="text" id="_Weight"></div>
                   </div>
 
                   <div class="input_cont">
                     <div class="input_label">Contributes to</div>
-                    <div class="input_de"><input type="text"></div>
+                    <div class="input_de">
+                      <select name="DataValueType" id="">
+                        <option value="1">lorem ipsum 1</option>
+                        <option value="1">lorem ipsum 2</option>
+                        <option value="1">lorem ipsum 3</option>
+                        <option value="1">lorem ipsum 4</option>
+                        <option value="1">lorem ipsum 5</option>
+                      </select>
+                    </div>
                   </div>
 
                 </div>
-                <div class="l2c2">2_2</div>
               </div>
             </div>
           </div>
+
+
         </div>
-
-
-
 
       </div>
       <div class="gr-sidebar">

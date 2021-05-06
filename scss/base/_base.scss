@@ -22,11 +22,12 @@ body {
     background-color: #E5E5E5;
     box-sizing: border-box;
     overflow-x: hidden;
+    overflow-y: hidden;
 
     .grid-container {
       display: grid;
       grid-template-columns: 1.8fr 0.8fr;
-      grid-template-rows: 1fr;
+      grid-template-rows: 62%;
       gap: 0px 0px;
       grid-template-areas:
         "gr-wrapper gr-sidebar";
@@ -36,7 +37,7 @@ body {
       grid-area: gr-wrapper;
       text-align: left;
       width: 100%;
-      height: calc(100% - 272px);
+      height: 100%;
       box-sizing: border-box;
 
       .gr-wrapper_cont{
@@ -44,6 +45,7 @@ body {
         height: 100%;
         overflow-y: auto;
         box-sizing: border-box;
+        overflow-y: scroll;
       }
     }
 
@@ -143,22 +145,6 @@ body {
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
-  }
-
-  input:-webkit-autofill,
-  input:-webkit-autofill:hover,
-  input:-webkit-autofill:focus,
-  textarea:-webkit-autofill,
-  textarea:-webkit-autofill:hover,
-  textarea:-webkit-autofill:focus,
-  select:-webkit-autofill,
-  select:-webkit-autofill:hover,
-  select:-webkit-autofill:focus {
-    border: 1px solid $bk-autofill;
-    -webkit-text-fill-color: $color-p;
-    -webkit-box-shadow: 0 0 0px 1000px $bk-autofill inset;
-    -webkit-transition: background-color 5000s ease-in-out 0s;
-    transition: background-color 5000s ease-in-out 0s;
   }
 
 }
